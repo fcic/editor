@@ -26,9 +26,7 @@
       "@vue-macros/reactivity-transform/macros-global",
       "vite/client",
       "vitest/globals",
-      "vitest",
-      "./types/imports.d.ts",
-      "./types/components.d.ts"
+      "vitest"
     ],
     "paths": {
       "@/*": ["./src/*"],
@@ -48,7 +46,7 @@
     "src/**/*.vue",
     "src/**/*.spec.ts",
     "src/**/*.spec.tsx",
-    "src/**/*.d.ts"
+    "src/**/*.d.ts","src", "types/**/*.d.ts", "env.d.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }
